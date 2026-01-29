@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fragment_bg"
+    tools:context=".Course_project.fragments.IncomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_rounded_background"
+                android:padding="20dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add New Income"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal_800"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    android:textSize="17sp"
+                    android:textColor="@color/teal_700"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/material_input_selector"
+                    android:layout_marginBottom="16dp"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amount"
+                    android:textSize="17sp"
+                    android:textColor="@color/teal_700"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/editText_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="Enter amount"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:background="@drawable/material_input_selector"
+                    android:textColorHint="@color/teal_600"
+                    android:textColor="@color/teal_700"
+                    android:layout_marginBottom="16dp"
+                    android:elevation="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textSize="17sp"
+                    android:textColor="@color/teal_700"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/editText_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="Enter description"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:background="@drawable/material_input_selector"
+                    android:textColorHint="@color/teal_600"
+                    android:textColor="@color/teal_700"
+                    android:layout_marginBottom="16dp"
+                    android:elevation="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:textSize="17sp"
+                    android:textColor="@color/teal_700"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/editText_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:hint="YYYY-MM-DD"
+                    android:focusable="false"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:background="@drawable/material_input_selector"
+                    android:textColorHint="@color/teal_600"
+                    android:textColor="@color/teal_700"
+                    android:layout_marginBottom="16dp"
+                    android:elevation="2dp" />
+
+                <Button
+                    android:id="@+id/button_addincome"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:text="Add Income"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/teal_600" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Income History"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?attr/textColorSecondary"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/card_rounded_background"
+                android:padding="12dp"
+                android:elevation="4dp">
+
+                <ListView
+                    android:id="@+id/list_income"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:divider="@color/teal_100"
+                    android:dividerHeight="1dp"
+                    android:scrollbars="vertical" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

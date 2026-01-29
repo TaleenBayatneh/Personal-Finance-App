@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fragment_bg">#FFFFFF</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_primary">@color/black</color>
+    <color name="text_secondary">@color/teal_400</color>
+    
+
+    <color name="green_50">#F1F8E9</color>
+    <color name="green_100">#DCEDC8</color>
+    <color name="green_200">#C5E1A5</color>
+    <color name="green_300">#AED581</color>
+    <color name="green_400">#9CCC65</color>
+    <color name="green_500">#8BC34A</color>
+    <color name="green_600">#7CB342</color>
+    <color name="green_700">#689F38</color>
+    <color name="green_800">#558B2F</color>
+    <color name="green_900">#33691E</color>
+    
+
+    <color name="teal_50">#E0F2F1</color>
+    <color name="teal_100">#B2DFDB</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_300">#4DB6AC</color>
+    <color name="teal_400">#26A69A</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_600">#00897B</color>
+    <color name="teal_700">#00796B</color>
+    <color name="teal_800">#00695C</color>
+    <color name="teal_900">#004D40</color>
+
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="dark_bg">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="dark_text_secondary">#B3B3B3</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <!--  Home  -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.project.Course_project.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home2" />
+
+    <!--  Income  -->
+    <fragment
+        android:id="@+id/nav_Income"
+        android:name="com.example.project.Course_project.fragments.IncomeFragment"
+        android:label="@string/menu_income"
+        tools:layout="@layout/fragment_income" />
+
+    <!--  Expenses  -->
+    <fragment
+        android:id="@+id/nav_Expenses"
+        android:name="com.example.project.Course_project.fragments.ExpensesFragment"
+        android:label="@string/menu_expenses"
+        tools:layout="@layout/fragment_expenses" />
+
+    <!--  Budget  -->
+    <fragment
+        android:id="@+id/nav_Budget"
+        android:name="com.example.project.Course_project.fragments.BudgetFragment"
+        android:label="@string/menu_budget"
+        tools:layout="@layout/fragment_budget" />
+
+    <!--  Setting  -->
+    <fragment
+        android:id="@+id/nav_Setting"
+        android:name="com.example.project.Course_project.fragments.SettingFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_setting" />
+
+    <!--  Profile  -->
+    <fragment
+        android:id="@+id/nav_Profile"
+        android:name="com.example.project.Course_project.fragments.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

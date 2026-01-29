@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme colors -->
+    <color name="fragment_bg">#121212</color>
+    <color name="card_bg">#1E1E1E</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    
+    <!-- Green color palette for dark theme -->
+    <color name="green_50">#1B5E20</color>
+    <color name="green_100">#2E7D32</color>
+    <color name="green_200">#388E3C</color>
+    <color name="green_300">#43A047</color>
+    <color name="green_400">#4CAF50</color>
+    <color name="green_500">#66BB6A</color>
+    <color name="green_600">#81C784</color>
+    <color name="green_700">#A5D6A7</color>
+    <color name="green_800">#C8E6C9</color>
+    <color name="green_900">#E8F5E9</color>
+    
+    <!-- Teal color palette for dark theme -->
+    <color name="teal_50">#004D40</color>
+    <color name="teal_100">#00695C</color>
+    <color name="teal_200">#00796B</color>
+    <color name="teal_300">#00897B</color>
+    <color name="teal_400">#009688</color>
+    <color name="teal_500">#26A69A</color>
+    <color name="teal_600">#4DB6AC</color>
+    <color name="teal_700">#80CBC4</color>
+    <color name="teal_800">#B2DFDB</color>
+    <color name="teal_900">#E0F2F1</color>
+    
+    <!-- Purple colors for dark theme -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#BB86FC</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Dark mode specific colors -->
+    <color name="dark_bg">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="dark_text_secondary">#B3B3B3</color>
+</resources>

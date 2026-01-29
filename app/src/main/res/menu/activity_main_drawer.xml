@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Income"
+            android:icon="@drawable/hand"
+            android:title="@string/menu_income" />
+        <item
+            android:id="@+id/nav_Expenses"
+            android:icon="@drawable/stats"
+            android:title="@string/menu_expenses" />
+        <item
+            android:id="@+id/nav_Budget"
+            android:icon="@drawable/accounts"
+            android:title="@string/menu_budget" />
+        <item
+            android:id="@+id/nav_Setting"
+            android:icon="@drawable/settings"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/profile"
+            android:title="@string/menu_profile" />
+    </group>
+</menu>

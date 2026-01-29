@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card_rounded_background"
+    android:padding="12dp"
+    android:elevation="2dp">
+
+    <!-- warning header with category name and alert status -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_warning_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Category Name"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="?attr/textColorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_warning_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50% used"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="#FF6B6B"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="@drawable/warning_badge_background" />
+    </LinearLayout>
+
+    <!-- budget limit information -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="limit: "
+            android:textColor="?attr/textColorSecondary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_warning_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$5000"
+            android:textColor="?attr/textColorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- spent amount information -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spent: "
+            android:textColor="?attr/textColorSecondary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_warning_spent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$2500"
+            android:textColor="#FF6B6B"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- remaining budget information -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="remaining: "
+            android:textColor="?attr/textColorSecondary"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_warning_remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$2500"
+            android:textColor="?attr/textColorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- progress bar showing usage percentage -->
+    <ProgressBar
+        android:id="@+id/pb_warning_progress"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="8dp"
+        android:progress="50"
+        android:progressDrawable="@drawable/budget_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal" />
+
+</LinearLayout>
